@@ -1,39 +1,41 @@
 /* COMENZAR A PERSONALIZAR EL APARTADO DE -NOSOTROS- */
 
+
+h1 {
+    color: var(--carta2-color);
+    text-align: center;
+    font-size: 28px;
+   }
+   
+
+h2 {
+    color: var(--carta7-color);
+}
+
 .A-Nosotros {
-    border-radius: 8px; 
     display: flex;
+    /* Habilita Flexbox */
+    flex-direction: row-reverse;
+    /* Alinea elementos en fila */
     justify-content: space-between;
-    align-items: flex-start;
+    /* Espacio entre imagen y texto */
+    align-items: center;
+    /* Alinea verticalmente */
+    gap: 15px;
+    /* Espacio entre imagen y texto */
     padding: 20px;
-    gap: 20px;
+}
 
 
-    .section-nosotros {
-     width: 60%;
+.imgnosotros {
+    width:40% ;
 
-        .imgnosotros {
-            display: flex;
-            align-items: flex-end;
-            justify-content: space-around;
-            border-radius: 8px;
-            width: 40%;
-            height: 30%;
-            filter: saturate(1.2);
-            /* filter:drop-shadow(0 0 0.75rem green); */
+    border-radius: 8px;
+    filter: saturate(1.2);
 
-        }
+}
 
-       h1 {
-        color: var(--carta2-color);
-        text-align: center;
-        font-size: 28px;
-       }
-       
 
-       h2 {
-        color: var(--carta7-color);
-       }
 
-    }
-} 
+
+/* filter:drop-shadow(0 0 0.75rem green); */
