@@ -1,4 +1,4 @@
-/* COMENZAR A PERSONALIZAR EL APARTADO DE -NOSOTROS- */
+/*! COMENZAR A PERSONALIZAR EL APARTADO DE -NOSOTROS- */
 
 
 html {
@@ -19,7 +19,7 @@ body {
     color: var(--carta2-color);
     text-align: center;
     font-size: 28px;
-   }
+}
    
 
 h2 {
