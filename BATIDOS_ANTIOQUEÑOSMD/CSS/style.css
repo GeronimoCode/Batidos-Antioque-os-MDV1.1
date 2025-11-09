@@ -88,6 +88,8 @@ main {
   background-color: #fff;
 }
 
+/*! APARTADO 3 CARDS  */
+
 .menu {
   text-align: center;
 }
@@ -133,6 +135,16 @@ main {
 .card p {
   font-size: 16px;
 }
+/* 
+@media (max-width: 600px) {
+
+  .card {
+    border-radius: 50%;
+    background-color: #000;
+  }
+
+} */
+
 
 /*! SEGUNDO APARTADO: CARRUSEL */ /* Estilo basico para la galeria */
 
